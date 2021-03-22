@@ -1,40 +1,39 @@
 body {
-    margin: auto;
-    text-align: -webkit-center;
+  margin: auto;
+  text-align: -webkit-center;
 }
 
 .screen {
-    width: 400px;
-    height: 100px;
-    background-color: gray;
-    text-align: right;
-    /* border: 1px solid black; */
+  width: 400px;
+  height: fit-content;
+  background-color: gray;
+  text-align: right;
+  /* border: 1px solid black; */
 
-    line-height: 100px;
+  /* line-height: 100px; */
 }
 
-.text-display {
-    margin-right: 10px;
+.text-display,
+.history {
+  margin-right: 10px;
+  /* font-size: 36px; */
 }
-
-
 
 .calculator {
-    background-color: aqua;
-    width: 400px;
-    height: 500px;
-    display: flex;
-    /* flex-direction: row; */
-    flex-wrap: wrap;
-    /* border: 1px solid black; */
-
+  background-color: aqua;
+  width: 400px;
+  height: 500px;
+  display: flex;
+  /* flex-direction: row; */
+  flex-wrap: wrap;
+  /* border: 1px solid black; */
 }
 
 .calculator div {
-    height: 98px;
-    width: 98px;
-    text-align: center;
-    border: 1px solid black;
-    /* padding: 5px 0; */
-    line-height: 100px;
+  height: 98px;
+  width: 98px;
+  text-align: center;
+  border: 1px solid black;
+  /* padding: 5px 0; */
+  line-height: 100px;
 }
